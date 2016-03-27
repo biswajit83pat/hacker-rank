@@ -8,7 +8,7 @@ public class PrimeNumber {
         int size = sc.nextInt();
         for(int i = 0; i < size; i++) {
             long number = sc.nextLong();
-            long sqrt = (long)(Math.sqrt(number) + 1);
+            long sqrt = (long)(java.lang.Math.sqrt(number) + 1);
             if(number <= 1)
             {
                     System.out.println("NOT PRIME");

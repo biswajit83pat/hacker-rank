@@ -15,7 +15,7 @@ public class PrimeExtravaganza {
 	                isPrime = false;
 	            } else if(args[i] == 2) {isPrime = true;}
 	            else {
-	                for(int j = 2; j<=(int)(Math.sqrt(args[i])+1);j++) {
+	                for(int j = 2; j<=(int)(java.lang.Math.sqrt(args[i])+1);j++) {
 	                    if(args[i]%j == 0){
 	                        isPrime = false;
 	                        break;
