@@ -15,5 +15,11 @@
 			<artifactId>jna</artifactId>
 			<version>4.1.0</version>
 		</dependency>
+		<dependency>
+	      <groupId>org.testng</groupId>
+	      <artifactId>testng</artifactId>
+	      <version>6.9.8</version>
+	      <scope>test</scope>
+    	</dependency>
 	</dependencies>
 </project>
